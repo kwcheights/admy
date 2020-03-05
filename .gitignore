@@ -1,32 +1,26 @@
-# Prerequisites
-*.d
+# Ignore Everything but..
+*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+!/**/
 
-# Precompiled Headers
-*.gch
-*.pch
+!*.sln
+!/**/**/*.sln
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+!/installer/**/*.bat
+!/installer/**/*.lnk
 
-# Fortran module files
-*.mod
-*.smod
+!/**/**/*.ico
+/res/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+!*.cs
+!/**/**/*.cs
 
-# Executables
-*.exe
-*.out
-*.app
+!*.csproj
+!/**/**/*.csproj
+
+#allow README.md and this file
+!README.md
+!.gitignore
+!LICENSE
+
+
